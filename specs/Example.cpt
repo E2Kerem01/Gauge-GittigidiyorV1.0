@@ -1,0 +1,60 @@
+Created by Dell on 3.05.2021
+
+This is a concept file with following syntax for each concept.
+# Login olma sayfasi acilir.
+* "1" saniye  bekle
+* "css" tipinde olan "div[title='Giriş Yap']" değerindeki elemanın üzerinde dur.
+* "1" saniye  bekle
+* "css" tipinde olan "a[data-cy='header-login-button']" değerindeki elemana tıkla.
+* "1" saniye  bekle
+
+# Giris yapma islemi yapilir.
+* "id" tipinde olan "L-UserNameField" değerindeki elemana "denemetesttest5@gmail.com" kelimesini gir.
+* "1" saniye  bekle
+* "id" tipinde olan "L-PasswordField" değerindeki elemana "denemedeneme555" kelimesini gir.
+* "1" saniye  bekle
+//* "css" tipinde olan "span[id='recaptcha-anchor']" değerindeki elemana tıkla.
+//* "1" saniye  bekle
+//* "id" tipinde olan "gg-login-enter" değerindeki elemana tıkla.
+
+# Login kontrol islemi yapilir.
+* "1" saniye  bekle
+* "css","div[title='Hesabım']>div[class='gekhq4-4 egoSnI']>span" texti ile "denemetest737269" değerini karşılaştır.
+* "1" saniye  bekle
+
+# Arama bölümüne <kelime> değeri girilir.
+* "css" tipinde olan "input[placeholder='Keşfetmeye Bak']" değerindeki elemana <kelime> kelimesini gir.
+* "1" saniye  bekle
+* "ul[class='catalog-view clearfix products-container']>li" değerinde olan elemanlardan birisine random olarak tıkla
+* "1" saniye  bekle
+
+# Ürün sepete eklenir.
+* "css" tipinde olan ".policy-alert-close>.gg-icon-close" değerindeki elemana tıkla.
+* "1" saniye  bekle
+* "css" tipinde olan "button[class='control-button gg-ui-button plr10 gg-ui-btn-default']" değerindeki elemana tıkla.
+* "1" saniye  bekle
+
+//* "class" tipinde olan "wis-btn-2 wis-btn-72682 control-button gg-ui-button plr10 gg-ui-btn-default wis-height" değerindeki "1".elemanı bul.
+
+# Sepet sayfası açılır.
+* "css" tipinde olan ".basket-title" değerindeki elemana tıkla.
+* "1" saniye  bekle
+* "css" tipinde olan "a[href='https://www.gittigidiyor.com/sepetim']" değerindeki "0".elemanı bul.
+* "1" saniye  bekle
+
+#Sepet sayfası açılır2.
+* Bu "https://www.gittigidiyor.com/sepetim" e git
+
+# Ürün adeti random arttılır.
+* "css" tipinde olan "div[class='gg-input gg-input-select ']" değerindeki elemana tıkla.
+
+#Sepetteki ürün silinir.
+* "css" tipinde olan ".row>a[title='Sil']>i" değerindeki elemana tıkla.
+* "1" saniye  bekle
+* "css" tipinde olan ".left>.logo_gg" değerindeki elemana tıkla.
+* "1" saniye  bekle
+
+#Hesaptan çıkış yapılır.
+* "css" tipinde olan "div[title='Hesabım']" değerindeki elemanın üzerinde dur.
+* "1" saniye  bekle
+* "css" tipinde olan "a[title='Çıkış']" değerindeki elemana tıkla.

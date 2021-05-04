@@ -1,0 +1,60 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1280milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1280"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60950"}
+{"logLevel":"info","message":"Listening on port:60950"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.search' and 'BaseStep.search'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.search' and 'BaseStep.search'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'"}
+{"logLevel":"debug","message":"Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.webText' and 'BaseStep.webText'"}
+{"logLevel":"debug","message":"Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'"}
+{"logLevel":"debug","message":"Found Bu {} e git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye  bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'"}
+{"logLevel":"debug","message":"Found {},{} texti ile {} değerini karşılaştır. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)"}
+{"logLevel":"debug","message":"\t{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)"}
+{"logLevel":"debug","message":"\t{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)"}
+{"logLevel":"debug","message":"\tBu {} e git : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)"}
+May 04, 2021 2:37:58 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 8172
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 04, 2021 2:38:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{},{} texti ile {} değerini karşılaştır.' using 'class BaseStep.kontrol"}
