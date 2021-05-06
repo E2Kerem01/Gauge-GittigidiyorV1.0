@@ -16,7 +16,7 @@ Login
 * Login kontrol islemi yapilir.
 * Arama bölümüne "telefon" değeri girilir.
 * Ürün sepete eklenir.
-* Sepet sayfası açılır2.
-* Ürün adeti random arttılır.
+* Sepet sayfası açılır.
+* Ürün adeti random arttırılır.
 * Sepetteki ürün silinir.
 * Hesaptan çıkış yapılır.
