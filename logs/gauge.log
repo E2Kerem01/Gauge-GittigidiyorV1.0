@@ -3232,3 +3232,583 @@ Total time taken: 40.903s
 04-05-2021 15:24:51.642 [Gauge] [INFO] 
 Total time taken: 40.533s
 04-05-2021 15:24:51.643 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+04-05-2021 16:46:42.860 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\Projeler\TamProje\GaugeGittigidiyorV1.0\.gauge\screenshots
+04-05-2021 16:46:42.866 [Gauge] [DEBUG] Plugin java is already installed.
+04-05-2021 16:46:42.867 [Gauge] [DEBUG] Plugin html-report is already installed.
+04-05-2021 16:46:42.870 [Gauge] [DEBUG] Parsing started.
+04-05-2021 16:46:42.870 [Gauge] [DEBUG] Started concepts parsing.
+04-05-2021 16:46:42.883 [Gauge] [DEBUG] 10 concepts parsing completed.
+04-05-2021 16:46:42.883 [Gauge] [DEBUG] Started specifications parsing.
+04-05-2021 16:46:42.885 [Gauge] [DEBUG] 1 specifications parsing completed.
+04-05-2021 16:46:42.889 [Gauge] [DEBUG] Parsing completed.
+04-05-2021 16:46:43.291 [Gauge] [DEBUG] Checking updates...
+04-05-2021 16:46:43.293 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:43.769 [java] [DEBUG] ***** Printing Properties/Env Values *****
+04-05-2021 16:46:43.770 [java] [DEBUG] PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+04-05-2021 16:46:43.770 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_281
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_project_root: C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\Projeler\TamProje\GaugeGittigidiyorV1.0
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_parallel_streams_count: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_reports_dir: reports
+04-05-2021 16:46:43.770 [java] [DEBUG] overwrite_reports: true
+04-05-2021 16:46:43.770 [java] [DEBUG] logs_directory: logs
+04-05-2021 16:46:43.770 [java] [DEBUG] enable_multithreading: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_specs_dir: specs
+04-05-2021 16:46:43.770 [java] [DEBUG] csv_delimiter: ,
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_java_home: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_custom_build_path: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_additional_libs: libs/*
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_jvm_args: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_custom_compile_dir: 
+04-05-2021 16:46:43.770 [java] [DEBUG] gauge_clear_state_level: scenario
+04-05-2021 16:46:43.770 [java] [DEBUG] ***** END *****
+04-05-2021 16:46:44.098 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:44.309 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:44.495 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:44.704 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:44.914 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+04-05-2021 16:46:46.930 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\Projeler\TamProje\GaugeGittigidiyorV1.0\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar
+04-05-2021 16:46:47.026 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe
+04-05-2021 16:46:47.026 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+04-05-2021 16:46:47.026 [java] [DEBUG] stdout/stderr is logged to logs\10016-java.exe.out
+04-05-2021 16:46:47.221 [java] [DEBUG] multithreading is set to false
+04-05-2021 16:46:47.621 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+04-05-2021 16:46:48.266 [java] [DEBUG] gauge-java took 1055milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+04-05-2021 16:46:48.266 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1055
+04-05-2021 16:46:48.266 [java] [DEBUG] starting gRPC server...
+04-05-2021 16:46:48.792 [java] [DEBUG] started gRPC server on port 63428
+04-05-2021 16:46:48.792 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63428
+04-05-2021 16:46:49.002 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63428
+04-05-2021 16:46:49.002 [Gauge] [DEBUG] Validation started.
+04-05-2021 16:46:51.193 [java] [DEBUG] Scanning packages for steps
+04-05-2021 16:46:51.285 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+04-05-2021 16:46:51.285 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope.
+04-05-2021 16:46:51.286 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+04-05-2021 16:46:51.286 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope.
+04-05-2021 16:46:51.286 [java] [DEBUG] Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'
+04-05-2021 16:46:51.286 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope.
+04-05-2021 16:46:51.286 [java] [DEBUG] Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.webText' and 'BaseStep.webText'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found Bu {} e git in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {} saniye  bekle in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'
+04-05-2021 16:46:51.289 [java] [DEBUG] Found {},{} texti ile {} değerini karşılaştır. in current project scope.
+04-05-2021 16:46:51.289 [java] [DEBUG] Scanning packages for hooks
+04-05-2021 16:46:51.308 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	Bu {} e git : public void navigateTo(String url)
+04-05-2021 16:46:51.308 [java] [DEBUG] 	{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)
+04-05-2021 16:46:53.221 [Gauge] [DEBUG] Validation completed.
+04-05-2021 16:46:53.223 [Gauge] [DEBUG] Run started
+04-05-2021 16:46:53.224 [Gauge] [DEBUG] Starting Html Report plugin
+04-05-2021 16:46:54.028 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63432
+04-05-2021 16:46:54.028 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63432
+04-05-2021 16:46:54.028 [Gauge] [DEBUG] Initialising suite data store.
+04-05-2021 16:47:00.551 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:02.574 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:03.590 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+04-05-2021 16:47:03.813 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:04.829 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:07.023 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:08.040 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+04-05-2021 16:47:08.243 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:09.259 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+04-05-2021 16:47:12.209 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:13.226 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:14.234 [java] [DEBUG] Executing '{},{} texti ile {} değerini karşılaştır.' using 'class BaseStep.kontrol
+04-05-2021 16:47:14.273 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:15.283 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+04-05-2021 16:47:22.363 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:23.381 [java] [DEBUG] Executing '{} değerinde olan elemanlardan birisine random olarak tıkla' using 'class BaseStep.randomTıklama
+04-05-2021 16:47:26.865 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:27.884 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:27.968 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:28.986 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:29.142 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:30.156 [java] [DEBUG] Executing 'Bu {} e git' using 'class BaseStep.navigateTo
+04-05-2021 16:47:31.325 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:31.486 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:31.645 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:32.658 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:34.330 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:35.350 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+04-05-2021 16:47:35.552 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+04-05-2021 16:47:36.568 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+04-05-2021 16:47:38.704 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-05-2021 16:47:38.942 [html-report] [INFO] Successfully generated html-report to => C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\Projeler\TamProje\GaugeGittigidiyorV1.0\reports\html-report\index.html
+04-05-2021 16:47:38.942 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\testinium\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+04-05-2021 16:47:38.942 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-05-2021 16:47:39.666 [Gauge] [DEBUG] Runner with PID:10016 has exited
+04-05-2021 16:47:39.666 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+04-05-2021 16:47:39.666 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+04-05-2021 16:47:39.666 [Gauge] [INFO] 
+Total time taken: 45.475s
+04-05-2021 16:47:39.667 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-05-2021 13:47:12.919 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\.gauge\screenshots
+06-05-2021 13:47:12.933 [Gauge] [DEBUG] Plugin java is already installed.
+06-05-2021 13:47:12.940 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-05-2021 13:47:12.942 [Gauge] [DEBUG] Parsing started.
+06-05-2021 13:47:12.943 [Gauge] [DEBUG] Started concepts parsing.
+06-05-2021 13:47:12.950 [Gauge] [DEBUG] 10 concepts parsing completed.
+06-05-2021 13:47:12.950 [Gauge] [DEBUG] Started specifications parsing.
+06-05-2021 13:47:12.951 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-05-2021 13:47:12.952 [Gauge] [DEBUG] Parsing completed.
+06-05-2021 13:47:13.376 [Gauge] [DEBUG] Checking updates...
+06-05-2021 13:47:13.377 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:13.609 [java] [DEBUG] ***** Printing Properties/Env Values *****
+06-05-2021 13:47:13.609 [java] [DEBUG] PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+06-05-2021 13:47:13.609 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_281
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_project_root: C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_parallel_streams_count: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_reports_dir: reports
+06-05-2021 13:47:13.609 [java] [DEBUG] overwrite_reports: true
+06-05-2021 13:47:13.609 [java] [DEBUG] logs_directory: logs
+06-05-2021 13:47:13.609 [java] [DEBUG] enable_multithreading: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_specs_dir: specs
+06-05-2021 13:47:13.609 [java] [DEBUG] csv_delimiter: ,
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_java_home: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_custom_build_path: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_additional_libs: libs/*
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_jvm_args: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_custom_compile_dir: 
+06-05-2021 13:47:13.609 [java] [DEBUG] gauge_clear_state_level: scenario
+06-05-2021 13:47:13.609 [java] [DEBUG] ***** END *****
+06-05-2021 13:47:13.862 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:14.058 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:14.213 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:14.411 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:14.615 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 13:47:16.126 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar
+06-05-2021 13:47:16.209 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe
+06-05-2021 13:47:16.209 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+06-05-2021 13:47:16.209 [java] [DEBUG] stdout/stderr is logged to logs\17320-java.exe.out
+06-05-2021 13:47:16.377 [java] [DEBUG] multithreading is set to false
+06-05-2021 13:47:16.685 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-05-2021 13:47:17.178 [java] [DEBUG] gauge-java took 801milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-05-2021 13:47:17.178 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 801
+06-05-2021 13:47:17.178 [java] [DEBUG] starting gRPC server...
+06-05-2021 13:47:17.591 [java] [DEBUG] started gRPC server on port 63726
+06-05-2021 13:47:17.591 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63726
+06-05-2021 13:47:17.796 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63726
+06-05-2021 13:47:17.797 [Gauge] [DEBUG] Validation started.
+06-05-2021 13:47:19.649 [java] [DEBUG] Scanning packages for steps
+06-05-2021 13:47:19.664 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 13:47:19.664 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope.
+06-05-2021 13:47:19.664 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 13:47:19.664 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope.
+06-05-2021 13:47:19.664 [java] [DEBUG] Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'
+06-05-2021 13:47:19.664 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.webText' and 'BaseStep.webText'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found Bu {} e git in current project scope.
+06-05-2021 13:47:19.665 [java] [DEBUG] Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'
+06-05-2021 13:47:19.665 [java] [DEBUG] Found {} saniye  bekle in current project scope.
+06-05-2021 13:47:19.666 [java] [DEBUG] Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'
+06-05-2021 13:47:19.666 [java] [DEBUG] Found {},{} texti ile {} değerini karşılaştır. in current project scope.
+06-05-2021 13:47:19.666 [java] [DEBUG] Scanning packages for hooks
+06-05-2021 13:47:19.676 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-05-2021 13:47:19.676 [java] [DEBUG] 	{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)
+06-05-2021 13:47:19.676 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)
+06-05-2021 13:47:19.676 [java] [DEBUG] 	{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	Bu {} e git : public void navigateTo(String url)
+06-05-2021 13:47:19.677 [java] [DEBUG] 	{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)
+06-05-2021 13:47:21.447 [Gauge] [DEBUG] Validation completed.
+06-05-2021 13:47:21.448 [Gauge] [DEBUG] Run started
+06-05-2021 13:47:21.450 [Gauge] [DEBUG] Starting Html Report plugin
+06-05-2021 13:47:22.138 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63729
+06-05-2021 13:47:22.140 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63729
+06-05-2021 13:47:22.141 [Gauge] [DEBUG] Initialising suite data store.
+06-05-2021 13:47:27.944 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 13:47:29.959 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 13:47:30.980 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 13:47:31.269 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 13:47:32.277 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 13:47:33.981 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-05-2021 13:47:34.081 [html-report] [INFO] Successfully generated html-report to => C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\reports\html-report\index.html
+06-05-2021 13:47:34.081 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\testinium\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+06-05-2021 13:47:34.081 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-05-2021 13:47:34.948 [Gauge] [DEBUG] Runner with PID:17320 has exited
+06-05-2021 13:47:34.948 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-05-2021 13:47:34.948 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-05-2021 13:47:34.950 [Gauge] [INFO] 
+Total time taken: 12.528s
+06-05-2021 13:47:34.950 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-05-2021 14:52:41.553 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\.gauge\screenshots
+06-05-2021 14:52:41.559 [Gauge] [DEBUG] Plugin java is already installed.
+06-05-2021 14:52:41.560 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-05-2021 14:52:41.563 [Gauge] [DEBUG] Parsing started.
+06-05-2021 14:52:41.563 [Gauge] [DEBUG] Started concepts parsing.
+06-05-2021 14:52:41.574 [Gauge] [DEBUG] 10 concepts parsing completed.
+06-05-2021 14:52:41.574 [Gauge] [DEBUG] Started specifications parsing.
+06-05-2021 14:52:41.577 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-05-2021 14:52:41.578 [Gauge] [DEBUG] Parsing completed.
+06-05-2021 14:52:41.634 [java] [DEBUG] ***** Printing Properties/Env Values *****
+06-05-2021 14:52:41.634 [java] [DEBUG] PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+06-05-2021 14:52:41.634 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_281
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_project_root: C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_parallel_streams_count: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_reports_dir: reports
+06-05-2021 14:52:41.634 [java] [DEBUG] overwrite_reports: true
+06-05-2021 14:52:41.634 [java] [DEBUG] logs_directory: logs
+06-05-2021 14:52:41.634 [java] [DEBUG] enable_multithreading: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_specs_dir: specs
+06-05-2021 14:52:41.634 [java] [DEBUG] csv_delimiter: ,
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_java_home: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_custom_build_path: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_additional_libs: libs/*
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_jvm_args: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_custom_compile_dir: 
+06-05-2021 14:52:41.634 [java] [DEBUG] gauge_clear_state_level: scenario
+06-05-2021 14:52:41.634 [java] [DEBUG] ***** END *****
+06-05-2021 14:52:41.978 [Gauge] [DEBUG] Checking updates...
+06-05-2021 14:52:41.982 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:42.426 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:42.645 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:42.822 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:43.039 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:43.246 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 14:52:45.657 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar
+06-05-2021 14:52:45.779 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe
+06-05-2021 14:52:45.779 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+06-05-2021 14:52:45.779 [java] [DEBUG] stdout/stderr is logged to logs\20048-java.exe.out
+06-05-2021 14:52:46.183 [java] [DEBUG] multithreading is set to false
+06-05-2021 14:52:47.072 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-05-2021 14:52:47.934 [java] [DEBUG] gauge-java took 1754milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-05-2021 14:52:47.934 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1754
+06-05-2021 14:52:47.934 [java] [DEBUG] starting gRPC server...
+06-05-2021 14:52:48.463 [java] [DEBUG] started gRPC server on port 64798
+06-05-2021 14:52:48.463 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64798
+06-05-2021 14:52:48.696 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64798
+06-05-2021 14:52:48.697 [Gauge] [DEBUG] Validation started.
+06-05-2021 14:52:51.770 [java] [DEBUG] Scanning packages for steps
+06-05-2021 14:52:51.813 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 14:52:51.813 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope.
+06-05-2021 14:52:51.813 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 14:52:51.813 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope.
+06-05-2021 14:52:51.814 [java] [DEBUG] Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'
+06-05-2021 14:52:51.814 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope.
+06-05-2021 14:52:51.815 [java] [DEBUG] Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'
+06-05-2021 14:52:51.815 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope.
+06-05-2021 14:52:51.815 [java] [DEBUG] Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'
+06-05-2021 14:52:51.815 [java] [DEBUG] Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope.
+06-05-2021 14:52:51.816 [java] [DEBUG] Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'
+06-05-2021 14:52:51.816 [java] [DEBUG] Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope.
+06-05-2021 14:52:51.816 [java] [DEBUG] Comparing 'BaseStep.webText' and 'BaseStep.webText'
+06-05-2021 14:52:51.816 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope.
+06-05-2021 14:52:51.819 [java] [DEBUG] Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'
+06-05-2021 14:52:51.819 [java] [DEBUG] Found Bu {} e git in current project scope.
+06-05-2021 14:52:51.819 [java] [DEBUG] Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'
+06-05-2021 14:52:51.819 [java] [DEBUG] Found {} saniye  bekle in current project scope.
+06-05-2021 14:52:51.819 [java] [DEBUG] Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'
+06-05-2021 14:52:51.819 [java] [DEBUG] Found {},{} texti ile {} değerini karşılaştır. in current project scope.
+06-05-2021 14:52:51.819 [java] [DEBUG] Scanning packages for hooks
+06-05-2021 14:52:51.844 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException
+06-05-2021 14:52:51.844 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)
+06-05-2021 14:52:51.847 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)
+06-05-2021 14:52:51.847 [java] [DEBUG] 	Bu {} e git : public void navigateTo(String url)
+06-05-2021 14:52:51.847 [java] [DEBUG] 	{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)
+06-05-2021 14:52:55.134 [Gauge] [DEBUG] Validation completed.
+06-05-2021 14:52:55.137 [Gauge] [DEBUG] Run started
+06-05-2021 14:52:55.138 [Gauge] [DEBUG] Starting Html Report plugin
+06-05-2021 14:52:55.321 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64801
+06-05-2021 14:52:55.324 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64801
+06-05-2021 14:52:55.325 [Gauge] [DEBUG] Initialising suite data store.
+06-05-2021 14:53:01.812 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:03.837 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:04.858 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 14:53:05.183 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:06.211 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:08.489 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:09.520 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 14:53:09.979 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:11.008 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 14:53:14.538 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:15.554 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:16.579 [java] [DEBUG] Executing '{},{} texti ile {} değerini karşılaştır.' using 'class BaseStep.kontrol
+06-05-2021 14:53:16.729 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:17.761 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 14:53:22.933 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:23.959 [java] [DEBUG] Executing '{} değerinde olan elemanlardan birisine random olarak tıkla' using 'class BaseStep.randomTıklama
+06-05-2021 14:53:27.052 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:28.079 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:28.340 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:29.363 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:29.738 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:30.767 [java] [DEBUG] Executing 'Bu {} e git' using 'class BaseStep.navigateTo
+06-05-2021 14:53:31.699 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:32.063 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:32.447 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:33.470 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:36.187 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:37.202 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 14:53:37.714 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 14:53:38.740 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 14:53:41.792 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-05-2021 14:53:41.861 [html-report] [INFO] Successfully generated html-report to => C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\reports\html-report\index.html
+06-05-2021 14:53:41.861 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\testinium\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+06-05-2021 14:53:41.861 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-05-2021 14:53:42.721 [Gauge] [DEBUG] Runner with PID:20048 has exited
+06-05-2021 14:53:42.724 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-05-2021 14:53:42.724 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-05-2021 14:53:42.725 [Gauge] [INFO] 
+Total time taken: 46.647s
+06-05-2021 14:53:42.727 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-05-2021 15:16:44.934 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\.gauge\screenshots
+06-05-2021 15:16:44.937 [Gauge] [DEBUG] Plugin java is already installed.
+06-05-2021 15:16:44.938 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-05-2021 15:16:44.940 [Gauge] [DEBUG] Parsing started.
+06-05-2021 15:16:44.940 [Gauge] [DEBUG] Started concepts parsing.
+06-05-2021 15:16:44.949 [Gauge] [DEBUG] 10 concepts parsing completed.
+06-05-2021 15:16:44.949 [Gauge] [DEBUG] Started specifications parsing.
+06-05-2021 15:16:44.950 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-05-2021 15:16:44.950 [Gauge] [DEBUG] Parsing completed.
+06-05-2021 15:16:44.989 [java] [DEBUG] ***** Printing Properties/Env Values *****
+06-05-2021 15:16:44.989 [java] [DEBUG] PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+06-05-2021 15:16:44.989 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_281
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_project_root: C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_parallel_streams_count: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_reports_dir: reports
+06-05-2021 15:16:44.989 [java] [DEBUG] overwrite_reports: true
+06-05-2021 15:16:44.989 [java] [DEBUG] logs_directory: logs
+06-05-2021 15:16:44.989 [java] [DEBUG] enable_multithreading: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_specs_dir: specs
+06-05-2021 15:16:44.989 [java] [DEBUG] csv_delimiter: ,
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_java_home: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_custom_build_path: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_additional_libs: libs/*
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_jvm_args: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_custom_compile_dir: 
+06-05-2021 15:16:44.989 [java] [DEBUG] gauge_clear_state_level: scenario
+06-05-2021 15:16:44.989 [java] [DEBUG] ***** END *****
+06-05-2021 15:16:45.377 [Gauge] [DEBUG] Checking updates...
+06-05-2021 15:16:45.382 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:45.989 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:46.365 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:46.677 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:46.960 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:47.254 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:16:49.265 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar
+06-05-2021 15:16:49.414 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe
+06-05-2021 15:16:49.415 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+06-05-2021 15:16:49.415 [java] [DEBUG] stdout/stderr is logged to logs\8096-java.exe.out
+06-05-2021 15:16:49.812 [java] [DEBUG] multithreading is set to false
+06-05-2021 15:16:50.631 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-05-2021 15:16:51.559 [java] [DEBUG] gauge-java took 1747milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-05-2021 15:16:51.559 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1747
+06-05-2021 15:16:51.559 [java] [DEBUG] starting gRPC server...
+06-05-2021 15:16:52.091 [java] [DEBUG] started gRPC server on port 58611
+06-05-2021 15:16:52.091 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58611
+06-05-2021 15:16:52.332 [Gauge] [DEBUG] Successfully made the connection with runner with port: 58611
+06-05-2021 15:16:52.333 [Gauge] [DEBUG] Validation started.
+06-05-2021 15:16:55.498 [java] [DEBUG] Scanning packages for steps
+06-05-2021 15:16:55.522 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 15:16:55.522 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope.
+06-05-2021 15:16:55.522 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 15:16:55.522 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope.
+06-05-2021 15:16:55.522 [java] [DEBUG] Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'
+06-05-2021 15:16:55.522 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope.
+06-05-2021 15:16:55.523 [java] [DEBUG] Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'
+06-05-2021 15:16:55.523 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope.
+06-05-2021 15:16:55.523 [java] [DEBUG] Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'
+06-05-2021 15:16:55.523 [java] [DEBUG] Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope.
+06-05-2021 15:16:55.523 [java] [DEBUG] Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'
+06-05-2021 15:16:55.523 [java] [DEBUG] Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope.
+06-05-2021 15:16:55.523 [java] [DEBUG] Comparing 'BaseStep.webText' and 'BaseStep.webText'
+06-05-2021 15:16:55.523 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope.
+06-05-2021 15:16:55.523 [java] [DEBUG] Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'
+06-05-2021 15:16:55.523 [java] [DEBUG] Found Bu {} e git in current project scope.
+06-05-2021 15:16:55.524 [java] [DEBUG] Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'
+06-05-2021 15:16:55.524 [java] [DEBUG] Found {} saniye  bekle in current project scope.
+06-05-2021 15:16:55.524 [java] [DEBUG] Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'
+06-05-2021 15:16:55.524 [java] [DEBUG] Found {},{} texti ile {} değerini karşılaştır. in current project scope.
+06-05-2021 15:16:55.524 [java] [DEBUG] Scanning packages for hooks
+06-05-2021 15:16:55.540 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-05-2021 15:16:55.540 [java] [DEBUG] 	{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	Bu {} e git : public void navigateTo(String url)
+06-05-2021 15:16:55.541 [java] [DEBUG] 	{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)
+06-05-2021 15:16:58.847 [Gauge] [DEBUG] Validation completed.
+06-05-2021 15:16:58.849 [Gauge] [DEBUG] Run started
+06-05-2021 15:16:58.851 [Gauge] [DEBUG] Starting Html Report plugin
+06-05-2021 15:16:58.882 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58614
+06-05-2021 15:16:58.882 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 58614
+06-05-2021 15:16:58.883 [Gauge] [DEBUG] Initialising suite data store.
+06-05-2021 15:17:07.944 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:17:09.998 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:17:11.030 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 15:17:11.637 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:17:12.653 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:17:14.167 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-05-2021 15:17:14.330 [html-report] [INFO] Successfully generated html-report to => C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\reports\html-report\index.html
+06-05-2021 15:17:14.330 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\testinium\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+06-05-2021 15:17:14.330 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-05-2021 15:17:15.277 [Gauge] [DEBUG] Runner with PID:8096 has exited
+06-05-2021 15:17:15.277 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+06-05-2021 15:17:15.277 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+06-05-2021 15:17:15.277 [Gauge] [INFO] 
+Total time taken: 15.307s
+06-05-2021 15:17:15.278 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-05-2021 15:17:46.638 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\.gauge\screenshots
+06-05-2021 15:17:46.640 [Gauge] [DEBUG] Plugin java is already installed.
+06-05-2021 15:17:46.641 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-05-2021 15:17:46.642 [Gauge] [DEBUG] Parsing started.
+06-05-2021 15:17:46.642 [Gauge] [DEBUG] Started concepts parsing.
+06-05-2021 15:17:46.652 [Gauge] [DEBUG] 10 concepts parsing completed.
+06-05-2021 15:17:46.652 [Gauge] [DEBUG] Started specifications parsing.
+06-05-2021 15:17:46.653 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-05-2021 15:17:46.653 [Gauge] [DEBUG] Parsing completed.
+06-05-2021 15:17:46.683 [java] [DEBUG] ***** Printing Properties/Env Values *****
+06-05-2021 15:17:46.684 [java] [DEBUG] PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\build-tools;C:\Users\testinium\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files\Gauge\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\testinium\AppData\Local\Android\Sdk\platform-tools;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+06-05-2021 15:17:46.684 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_281
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_project_root: C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_parallel_streams_count: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_reports_dir: reports
+06-05-2021 15:17:46.684 [java] [DEBUG] overwrite_reports: true
+06-05-2021 15:17:46.684 [java] [DEBUG] logs_directory: logs
+06-05-2021 15:17:46.684 [java] [DEBUG] enable_multithreading: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_specs_dir: specs
+06-05-2021 15:17:46.684 [java] [DEBUG] csv_delimiter: ,
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_java_home: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_custom_build_path: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_additional_libs: libs/*
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_jvm_args: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_custom_compile_dir: 
+06-05-2021 15:17:46.684 [java] [DEBUG] gauge_clear_state_level: scenario
+06-05-2021 15:17:46.684 [java] [DEBUG] ***** END *****
+06-05-2021 15:17:47.253 [Gauge] [DEBUG] Checking updates...
+06-05-2021 15:17:47.255 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/flash?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:47.963 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:48.350 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:48.904 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:49.438 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:49.866 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=flash,html-report,java,screenshot,spectacle,xml-report&o=windows&a=amd64
+06-05-2021 15:17:50.423 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\target\test-classes;C:\Users\testinium\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\testinium\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\testinium\.m2\repository\org\reflections\reflections\0.9.9\reflections-0.9.9.jar;C:\Users\testinium\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\testinium\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\testinium\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\testinium\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\testinium\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\testinium\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\testinium\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\testinium\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\testinium\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\testinium\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\testinium\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\testinium\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\testinium\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\testinium\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\testinium\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\testinium\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\testinium\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\testinium\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\testinium\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\testinium\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\testinium\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\testinium\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\testinium\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\testinium\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\testinium\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\testinium\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar
+06-05-2021 15:17:50.511 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe
+06-05-2021 15:17:50.511 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+06-05-2021 15:17:50.511 [java] [DEBUG] stdout/stderr is logged to logs\10172-java.exe.out
+06-05-2021 15:17:50.908 [java] [DEBUG] multithreading is set to false
+06-05-2021 15:17:51.533 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+06-05-2021 15:17:52.126 [java] [DEBUG] gauge-java took 1220milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+06-05-2021 15:17:52.126 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1220
+06-05-2021 15:17:52.126 [java] [DEBUG] starting gRPC server...
+06-05-2021 15:17:52.603 [java] [DEBUG] started gRPC server on port 58707
+06-05-2021 15:17:52.603 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58707
+06-05-2021 15:17:52.831 [Gauge] [DEBUG] Successfully made the connection with runner with port: 58707
+06-05-2021 15:17:52.831 [Gauge] [DEBUG] Validation started.
+06-05-2021 15:17:56.210 [java] [DEBUG] Scanning packages for steps
+06-05-2021 15:17:56.236 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 15:17:56.236 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın üzerinde dur. in current project scope.
+06-05-2021 15:17:56.236 [java] [DEBUG] Comparing 'BaseStep.search' and 'BaseStep.search'
+06-05-2021 15:17:56.236 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana {} kelimesini gir. in current project scope.
+06-05-2021 15:17:56.237 [java] [DEBUG] Comparing 'BaseStep.webElementiBul' and 'BaseStep.webElementiBul'
+06-05-2021 15:17:56.237 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemana tıkla. in current project scope.
+06-05-2021 15:17:56.237 [java] [DEBUG] Comparing 'BaseStep.ürünkontrol' and 'BaseStep.ürünkontrol'
+06-05-2021 15:17:56.237 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  in current project scope.
+06-05-2021 15:17:56.237 [java] [DEBUG] Comparing 'BaseStep.webElementleriBul' and 'BaseStep.webElementleriBul'
+06-05-2021 15:17:56.237 [java] [DEBUG] Found {} tipinde olan {} değerindeki {}.elemanı bul. in current project scope.
+06-05-2021 15:17:56.238 [java] [DEBUG] Comparing 'BaseStep.randomTıklama' and 'BaseStep.randomTıklama'
+06-05-2021 15:17:56.238 [java] [DEBUG] Found {} değerinde olan elemanlardan birisine random olarak tıkla in current project scope.
+06-05-2021 15:17:56.238 [java] [DEBUG] Comparing 'BaseStep.webText' and 'BaseStep.webText'
+06-05-2021 15:17:56.238 [java] [DEBUG] Found {} tipinde olan {} değerindeki elemanın textini al. in current project scope.
+06-05-2021 15:17:56.238 [java] [DEBUG] Comparing 'BaseStep.navigateTo' and 'BaseStep.navigateTo'
+06-05-2021 15:17:56.238 [java] [DEBUG] Found Bu {} e git in current project scope.
+06-05-2021 15:17:56.238 [java] [DEBUG] Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'
+06-05-2021 15:17:56.238 [java] [DEBUG] Found {} saniye  bekle in current project scope.
+06-05-2021 15:17:56.239 [java] [DEBUG] Comparing 'BaseStep.kontrol' and 'BaseStep.kontrol'
+06-05-2021 15:17:56.239 [java] [DEBUG] Found {},{} texti ile {} değerini karşılaştır. in current project scope.
+06-05-2021 15:17:56.239 [java] [DEBUG] Scanning packages for hooks
+06-05-2021 15:17:56.257 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{},{} texti ile {} değerini karşılaştır. : public void kontrol(String key, String value, String actual)
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın içinden random bir değere tıkla.  : public void ürünkontrol(String key, String value)
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} değerinde olan elemanlardan birisine random olarak tıkla : public void randomTıklama(String by)
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın textini al. : public String webText(String key, String value)
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana {} kelimesini gir. : public void search(String key, String value, String sendingvalue)
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} saniye  bekle : public void waitForsecond(ınt i) throws InterruptedException
+06-05-2021 15:17:56.257 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemana tıkla. : public WebElement webElementiBul(String key, String value)
+06-05-2021 15:17:56.258 [java] [DEBUG] 	{} tipinde olan {} değerindeki elemanın üzerinde dur. : public void search(String key, String value)
+06-05-2021 15:17:56.258 [java] [DEBUG] 	Bu {} e git : public void navigateTo(String url)
+06-05-2021 15:17:56.258 [java] [DEBUG] 	{} tipinde olan {} değerindeki {}.elemanı bul. : public WebElement webElementleriBul(String key, String value, ınt i)
+06-05-2021 15:17:58.389 [Gauge] [DEBUG] Validation completed.
+06-05-2021 15:17:58.389 [Gauge] [DEBUG] Run started
+06-05-2021 15:17:58.390 [Gauge] [DEBUG] Starting Html Report plugin
+06-05-2021 15:17:58.428 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58711
+06-05-2021 15:17:58.435 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 58711
+06-05-2021 15:17:58.435 [Gauge] [DEBUG] Initialising suite data store.
+06-05-2021 15:18:05.841 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:07.880 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:08.906 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 15:18:09.227 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:10.256 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:14.100 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:15.141 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 15:18:15.530 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:16.559 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 15:18:21.787 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:22.806 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:23.841 [java] [DEBUG] Executing '{},{} texti ile {} değerini karşılaştır.' using 'class BaseStep.kontrol
+06-05-2021 15:18:23.980 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:25.004 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana {} kelimesini gir.' using 'class BaseStep.search
+06-05-2021 15:18:33.095 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:34.132 [java] [DEBUG] Executing '{} değerinde olan elemanlardan birisine random olarak tıkla' using 'class BaseStep.randomTıklama
+06-05-2021 15:18:38.729 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:39.762 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:40.028 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:41.048 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:41.464 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:42.489 [java] [DEBUG] Executing 'Bu {} e git' using 'class BaseStep.navigateTo
+06-05-2021 15:18:43.882 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:44.113 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:44.558 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:45.579 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:48.661 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:49.694 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemanın üzerinde dur.' using 'class BaseStep.search
+06-05-2021 15:18:50.126 [java] [DEBUG] Executing '{} saniye  bekle' using 'class BaseStep.waitForsecond
+06-05-2021 15:18:51.142 [java] [DEBUG] Executing '{} tipinde olan {} değerindeki elemana tıkla.' using 'class BaseStep.webElementiBul
+06-05-2021 15:18:55.035 [html-report] [DEBUG] Transformed SuiteResult to report structure
+06-05-2021 15:18:55.166 [html-report] [INFO] Successfully generated html-report to => C:\Users\testinium\OneDrive - Saha Bilgi Teknolojileri\Masaüstü\GaugeGittigidiyorV1.0\reports\html-report\index.html
+06-05-2021 15:18:55.166 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\testinium\AppData\Roaming\gauge\plugins\html-report\4.0.9\themes\default
+06-05-2021 15:18:55.166 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-05-2021 15:18:56.061 [Gauge] [DEBUG] Runner with PID:10172 has exited
+06-05-2021 15:18:56.061 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-05-2021 15:18:56.061 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-05-2021 15:18:56.063 [Gauge] [INFO] 
+Total time taken: 56.632s
+06-05-2021 15:18:56.065 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
