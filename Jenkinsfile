@@ -10,7 +10,7 @@ pipeline {
         }
         stage('install') {
             steps {
-                bat "mvn install -f Gauge-GittigidiyorV1.0"
+                //bat "mvn install -f Gauge-GittigidiyorV1.0"
             }
         }
         stage('test') {
