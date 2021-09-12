@@ -8,11 +8,11 @@ pipeline {
                 bat "mvn clean -f Gauge-GittigidiyorV1.0"
             }
         }
-        stage('install') {
-            steps {
+        //stage('install') {
+            //steps {
                 //bat "mvn install -f Gauge-GittigidiyorV1.0"
-            }
-        }
+           // }
+        //}
         stage('test') {
             steps {
                 bat "mvn test -f Gauge-GittigidiyorV1.0"
