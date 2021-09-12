@@ -18,9 +18,6 @@ pipeline {
                 echo 'Testing'
             }
         }
-        emailext body: 'Test Message',
-        subject: 'Test Subject',
-        to: 'test@example.com'
         stage('Release') {
             steps {
                 echo 'Releasing'
