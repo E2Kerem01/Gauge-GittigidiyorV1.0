@@ -1,26 +1,30 @@
 pipeline {
     agent any
+
     stages {
-        stage('git repo & clean') {
+        stage('Hello') {
             steps {
-               
-                bat "git clone https://github.com/E2Kerem01/Gauge-GittigidiyorV1.0"
-                bat "mvn clean -f Gauge-GittigidiyorV1.0"
+                echo 'Hello World'
             }
         }
-        stage('install') {
+        stage('Buid') {
             steps {
-                bat "mvn install -f Gauge-GittigidiyorV1.0"
+                echo 'Building'
             }
         }
-        stage('test') {
+        stage('Deploy') {
             steps {
-                bat "mvn test -f Gauge-GittigidiyorV1.0"
+                echo 'Deploying'
             }
         }
-        stage('package') {
+        stage('Test') {
             steps {
-                bat "mvn package -f Gauge-GittigidiyorV1.0"
+                echo 'Testing'
+            }
+        }
+        stage('Release') {
+            steps {
+                echo 'Releasing'
             }
         }
     }
