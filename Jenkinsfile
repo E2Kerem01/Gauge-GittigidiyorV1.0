@@ -18,11 +18,6 @@ pipeline {
                 echo 'Testing'
             }
         }
-        post {
-        always {
-            emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
-            }
-        }
         stage('Release') {
             steps {
                 echo 'Releasing'
