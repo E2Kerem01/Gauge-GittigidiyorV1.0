@@ -28,6 +28,7 @@ This is a concept file with following syntax for each concept.
 * "ul[class='catalog-view clearfix products-container']>li" değerinde olan elemanlardan birisine random olarak tıkla
 * "1" saniye  bekle
 
+
 # Ürün sepete eklenir.
 * "css" tipinde olan ".policy-alert-close>.gg-icon-close" değerindeki elemana tıkla.
 * "1" saniye  bekle
@@ -42,7 +43,7 @@ This is a concept file with following syntax for each concept.
 * "css" tipinde olan "a[href='https://www.gittigidiyor.com/sepetim']" değerindeki "0".elemanı bul.
 * "1" saniye  bekle
 
-#Sepet sayfası açılır2.
+#Sepet sayfası açılır.
 * Bu "https://www.gittigidiyor.com/sepetim" e git
 
 # Ürün adeti random arttılır.
