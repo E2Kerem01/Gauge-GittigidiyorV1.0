@@ -153,7 +153,7 @@ public class BaseStep extends BaseTest {
                 webElement.click();
                 break;
             default:
-                System.out.println("Kerem LG ekran alamaz. :D");
+                System.out.println("Bulunumadı.");
                 break;
         }
         return webElement;
